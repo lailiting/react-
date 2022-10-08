@@ -1,0 +1,18 @@
+.vab-text-card {
+    background: linear-gradient(50deg, var(--el-color-transition), var(--el-color-primary));
+    // background-color: black;
+    width: 40%;
+    height: 200px;
+
+    .count-text {
+        height: 80px;
+        margin-bottom: 20px;
+        font-size: 60px;
+        font-weight: 700;
+        text-align: center;
+        background: linear-gradient(0deg, #77e0a0, #75c3e9);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}

@@ -1,0 +1,29 @@
+%box-padding {
+    padding: 20px 20px 0 20px;
+}
+.app-main{
+    height: 100vh;
+    margin-left: var(--el-left-menu-width);
+    overflow-y: scroll;
+    background: #f6f8f9;
+
+    .app-top-header{
+        @extend %box-padding;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        background-color: #fff;
+        z-index: 1000;
+    }
+
+    .vab-nav{
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid rgb(217, 217, 217);
+    }
+
+    .app-content{
+        @extend %box-padding;
+        margin-top: 129px;
+    }
+}

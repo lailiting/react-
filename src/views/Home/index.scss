@@ -1,0 +1,10 @@
+
+.vab-card{
+    transition: all 0.2s linear;
+    margin-bottom: 20px;
+
+
+    &:hover{
+        box-shadow: 0px 0px 8px 2px rgb(231, 231, 231);
+    }
+}

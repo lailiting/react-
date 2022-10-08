@@ -1,0 +1,18 @@
+
+
+.composite-table{
+    background-color: var(--page-main-bgColor);
+    padding: var(--page-main-padding);
+    .ant-table{
+        height: 60vh;
+        overflow-y: scroll;
+    }
+    
+    .ant-table-thead > tr > th{
+        background: #fff;
+    }
+
+    .operate-button{
+        margin: 0 5px;
+    }
+}

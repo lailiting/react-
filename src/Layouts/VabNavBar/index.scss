@@ -1,0 +1,25 @@
+.vab-nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: var(--el-left-menu-width);
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    &::-webkit-scrollbar{
+        width: 0;
+    }
+
+    .app-title{
+        color: var(--el-color-black);
+        font-size: 18px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .menu-bar{
+        width: var(--el-left-menu-width);
+    }
+    
+}
